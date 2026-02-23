@@ -710,7 +710,6 @@ AddScript(BF_Tab, "Hoho Hub", "Có key", function() loadstring(game:HttpGet("htt
 AddScript(BF_Tab, "Rubu Hub", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/RUBU/refs/heads/main/RUBUV6.lua"))() end)
 AddScript(BF_Tab, "3toc Hub", "Không key", function() getgenv().Team = "Marines" --// Pirates
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/245375592509cc0bcb3526982431ab18.lua"))() end)
-AddScript(BF_Tab, "Matsune Hub", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/RealMatsune/RealDragonToro/refs/heads/main/AutoMainHop.lua"))() end)
 AddScript(BF_Tab, "Kaitun Rip_indra", "Không key", function() getgenv().Config = {
 Bosses = {
 Farm = "rip_indra" -- "Dough King", "Darkbeard", "Tyrant of the Skies"
@@ -778,6 +777,30 @@ local fisch_Tab = Window:CreateTab("Fisch", 4483362458)
 AddScript(fisch_Tab, "Shield Hub", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/KAN-FISCH/tesss/refs/heads/main/gunung/fish.lua"))() end)
 AddScript(fisch_Tab, "Speed X", "Có key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))() end)
 AddScript(fisch_Tab, "Than Hub", "Có key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/thantzy/thanhub/refs/heads/main/thanv1"))() end)
+
+-- ================= TAB 13: DA HOOD =================
+local DaTab = Window:CreateTab("Da Hood", 4483362458) 
+AddScript(DaTab, "Hitbox", "Không key", function() _G.HeadSize = 10
+_G.Disabled = true
+game:GetService('RunService').RenderStepped:connect(function()
+if _G.Disabled then
+for i,v in next, game:GetService('Players'):GetPlayers() do
+if v.Name ~= game:GetService('Players').LocalPlayer.Name then
+pcall(function()
+v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
+v.Character.HumanoidRootPart.Transparency = 0.7
+v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really black")
+v.Character.HumanoidRootPart.Material = "Neon"
+v.Character.HumanoidRootPart.CanCollide = false
+end)
+end
+end
+end
+end) end)
+AddScript(DaTab, "Schmeckt", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/judos887o/MOMENZZZZ/refs/heads/main/MOMENZ%3F", true))() end)
+AddScript(DaTab, "Angel Lol", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/angel1LOL/angel.LOL4/refs/heads/main/Angel.LOL"))() end)
+AddScript(DaTab, "Exogens", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/SprayDrivex/exogen.fun/refs/heads/main/loader.lua"))() end)
+AddScript(DaTab, "Farxly", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Farxly/Silent-farxly/refs/heads/main/main"))() end)
 
 -- ================= LOGIC HỆ THỐNG =================
 local function GetClosestToMouse()
