@@ -11,8 +11,7 @@ local Window = Rayfield:CreateWindow({
 -- THÔNG BÁO DISCORD
 Rayfield:Notify({
    Title = "Hệ Thống Đã Kích Hoạt!",
-   Content = "Discord : https://discord.gg/3D3acCm9k
- Anh em nào muốn thêm script game nào đó thì vào discord bảo mình nhé!",
+   Content = "Discord : https://discord.gg/3D3acCm9k",
    Duration = 10,
    Image = 4483362458,
    Actions = { Ignore = { Name = "OK!", Callback = function() end }, },
@@ -863,4 +862,3 @@ game:GetService("RunService").Stepped:Connect(function()
         end 
     end)
 end)
-
