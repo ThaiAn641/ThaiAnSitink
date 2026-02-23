@@ -706,13 +706,6 @@ AddScript(BF_Tab, "Auto Ghoul", "Không key", function() getgenv().Team = "Marin
 getgenv().Get_Race = "Ghoul"
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7a6c326e81861b3e1e7207c5d11ed755.lua"))() end)
 AddScript(BF_Tab, "Gravity Hub", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))() end)
-AddScript(BF_Tab, "Ngọc Bổng Hub", "Không key", function() getgenv().Team = "Marines"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/NgocBong/refs/heads/main/NgocBongVn"))() end)
-AddScript(BF_Tab, "Rubu Hub", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/RubuRoblox/refs/heads/main/RubuBF"))() end)
-AddScript(BF_Tab, "Đạt Thg Hub", "Không key", function() getgenv().Team = "Marines" loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatThgV3Eng"))() end)
-AddScript(BF_Tab, "Banana Hub(Kimpro)", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))() end)
-AddScript(BF_Tab, "Trọng Nguyễn Hub", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/trongnguyenhubbloxfruit/Cocaigidaumaphaiskid/refs/heads/main/TrongNguyenSTB.lua"))() end)
-AddScript(BF_Tab, "Doraemon Hub", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/KiddoHiru/BloxFruits/main/MasterHub.lua"))() end)
 AddScript(BF_Tab, "Hoho Hub", "Có key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))() end)
 AddScript(BF_Tab, "Kaitun Rip_indra", "Không key", function() getgenv().Config = {
 Bosses = {
@@ -862,3 +855,4 @@ game:GetService("RunService").Stepped:Connect(function()
         end 
     end)
 end)
+
