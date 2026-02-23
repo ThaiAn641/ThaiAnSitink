@@ -710,6 +710,7 @@ AddScript(BF_Tab, "Hoho Hub", "Có key", function() loadstring(game:HttpGet("htt
 AddScript(BF_Tab, "Rubu Hub", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/RUBU/refs/heads/main/RUBUV6.lua"))() end)
 AddScript(BF_Tab, "3toc Hub", "Không key", function() getgenv().Team = "Marines" --// Pirates
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/245375592509cc0bcb3526982431ab18.lua"))() end)
+AddScript(BF_Tab, "Matsune Hub", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/RealMatsune/RealDragonToro/refs/heads/main/AutoMainHop.lua"))() end)
 AddScript(BF_Tab, "Kaitun Rip_indra", "Không key", function() getgenv().Config = {
 Bosses = {
 Farm = "rip_indra" -- "Dough King", "Darkbeard", "Tyrant of the Skies"
