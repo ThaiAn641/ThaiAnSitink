@@ -707,6 +707,9 @@ getgenv().Get_Race = "Ghoul"
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7a6c326e81861b3e1e7207c5d11ed755.lua"))() end)
 AddScript(BF_Tab, "Gravity Hub", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))() end)
 AddScript(BF_Tab, "Hoho Hub", "Có key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))() end)
+AddScript(BF_Tab, "Rubu Hub", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/RUBU/refs/heads/main/RUBUV6.lua"))() end)
+AddScript(BF_Tab, "3toc Hub", "Không key", function() getgenv().Team = "Marines" --// Pirates
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/245375592509cc0bcb3526982431ab18.lua"))() end)
 AddScript(BF_Tab, "Kaitun Rip_indra", "Không key", function() getgenv().Config = {
 Bosses = {
 Farm = "rip_indra" -- "Dough King", "Darkbeard", "Tyrant of the Skies"
