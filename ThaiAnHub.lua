@@ -719,20 +719,20 @@ AddScript(BF_Tab, "Kaitun Rip_indra", "Không key", function() getgenv().Config 
 Bosses = {
 Farm = "rip_indra" -- "Dough King", "Darkbeard", "Tyrant of the Skies"
 }
-}
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaAnarchist/3TOC-HUB/refs/heads/main/KaitunBoss.luau"))()
+} 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaAnarchist/3TOC-HUB/refs/heads/main/KaitunBoss.luau"))() end)
 AddScript(BF_Tab, "Kaitun Dough King", "Không key", function() getgenv().Config = {
-Bosses = {
+Bosses = { 
 Farm = "Dough King" -- "Dough King", "Darkbeard", "Tyrant of the Skies"
 }
-}
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaAnarchist/3TOC-HUB/refs/heads/main/KaitunBoss.luau"))()
+} 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaAnarchist/3TOC-HUB/refs/heads/main/KaitunBoss.luau"))() end)
 AddScript(BF_Tab, "Kaitun Darkbeard", "Không key", function() getgenv().Config = {
-Bosses = {
+Bosses = { 
 Farm = "Darkbeard" -- "Dough King", "Darkbeard", "Tyrant of the Skies"
 }
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaAnarchist/3TOC-HUB/refs/heads/main/KaitunBoss.luau"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaAnarchist/3TOC-HUB/refs/heads/main/KaitunBoss.luau"))() end)
 
 -- ================= TAB 7: 99 nights in the forest =================
 local Night99Tab = Window:CreateTab("99 nights in the forest", 4483362458)
@@ -863,3 +863,4 @@ game:GetService("RunService").Stepped:Connect(function()
         end 
     end)
 end)
+
