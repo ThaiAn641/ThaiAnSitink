@@ -737,6 +737,7 @@ AddScript(Night99Tab, "H4x", "Có key", function() loadstring(game:HttpGet("http
 AddScript(Night99Tab, "Ringta", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/wehibuyfgyuwe/99nights.github.io/refs/heads/main/ringta.lua"))() end)
 AddScript(Night99Tab, "Cps Hub", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Rx1m/CpsHub/refs/heads/main/Hub",true))() end)
 AddScript(Night99Tab, "Overhub", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/hellattexyss/autofarmdiamonds/main/overhubaurofarm.lua"))() end)
+AddScript(Night99Tab, "Nameless Hub", "Không key", function() loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/62d0b3c311e54e766a981dcd5bfe57b3.lua"))() end)
 
 -- ================= TAB 8: THE FORGE =================
 local Forge_Tab = Window:CreateTab("The Forge", 4483362458)
@@ -820,6 +821,21 @@ AddScript(bwTab, "Voidware", "Không key", function() loadstring(game:HttpGet("h
 local eaTab = Window:CreateTab("Escape Tsunami", 4483362458)
 AddScript(eaTab, "Escape Tsunam", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/etfbscript-server/EscapeTsunamiForBrainrots/refs/heads/main/Loader.lua"))() end)
 AddScript(eaTab, "Vinz Hub", "Không key", function() loadstring(game:HttpGet("https://script.vinzhub.com/loader"))() end)
+
+-- ================= TAB 18: SAB =================
+local saTab = Window:CreateTab("Steal A Brainrot", 4483362458)
+AddScript(saTab, "Chilli Hub", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/spicy/main/Chilli.lua"))() end)
+AddScript(saTab, "Ugly Hub", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/A0WTGFjaGecc2k42wP0PZAbQphqh/Contact/refs/heads/main/OrzlxZ44HubOwnKQenGRSVztS5ndNb.lua", true))() end)
+AddScript(saTab, "Nameless Hub", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ily123950/Vulkan/refs/heads/main/Tr"))() end)
+AddScript(saTab, "Invisible (Ugly Hub)", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/A0WTGFjaGecc2k42wP0PZAbQphqh/Contact/main/6tORW3JIzSy%3B)~%23%5CIpB2.%5Cty5zN%7D5.lua"))() end)
+
+-- ================= TAB 19: FTAP =================
+local flTab = Window:CreateTab("Fling Things And People", 4483362458)
+AddScript(flTab, "Ftap Hub", "Không key và script này tổng hợp nhiều script", function() loadstring(game:HttpGet("https://rawscripts.net/raw/Fling-Things-and-People-FTAP-Hub-79081"))() end)
+
+-- ================= TAB 20: LB2 =================
+local lbTab = Window:CreateTab("Lumber Tycoon 2", 4483362458)
+AddScript(lbTab, "Kron Hub", "Không key", function() loadstring(game:HttpGet('https://raw.githubusercontent.com/DevKron/Kron_Hub/refs/heads/main/version_1.0'))("") end)
 
 -- ================= LOGIC HỆ THỐNG =================
 local function GetClosestToMouse()
