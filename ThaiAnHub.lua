@@ -259,7 +259,7 @@ AddScript(UtilsTab, "Hitbox Expander", "Tăng tầm đánh", function()
 end)
 AddScript(UtilsTab, "Fake Lag", "Tạo lag giả", function() 
     Rayfield:Notify({Title = "ThaiAn Hub", Content = "Đang bật Fake Lag...", Duration = 3})
-    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FAKE-LAG-22520"))() end)
+    loadstring(game:HttpGet("https://pastebin.com/raw/w6PfESuz"))() end)
 AddScript(UtilsTab, "Fake Dead", "Giả chết", function() 
     Rayfield:Notify({Title = "ThaiAn Hub", Content = "Bạn đã chết (giả)!", Duration = 3})
     loadstring(game:HttpGet("https://pastefy.app/ssXUg0ng/raw", true))()
@@ -801,6 +801,15 @@ AddScript(DaTab, "Schmeckt", "Không key", function() loadstring(game:HttpGet("h
 AddScript(DaTab, "Angel Lol", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/angel1LOL/angel.LOL4/refs/heads/main/Angel.LOL"))() end)
 AddScript(DaTab, "Exogens", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/SprayDrivex/exogen.fun/refs/heads/main/loader.lua"))() end)
 AddScript(DaTab, "Farxly", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Farxly/Silent-farxly/refs/heads/main/main"))() end)
+
+-- ================= TAB 14: TSB =================
+local tsbTab = Window:CreateTab("TSB", 4483362458)
+AddScript(tsbTab, "MinhNhat Hub", "Key : MinhNhatHUB On Top", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/MinhNhatHUB/MinhNhat/refs/heads/main/MinhNhatHUB%20(New).lua"))() end)
+AddScript(tsbTab, "Tthanh Hub", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/kaimm2/TSB/refs/heads/main/Tthanh%20Tong%20Hop%20Tech.txt"))() end)
+
+-- ================= TAB 15: BABFT =================
+local baTab = Window:CreateTab("Build A Boat For Treasure", 4483362458)
+AddScript(baTab, "Asu Hub", "Không key", function() loadstring(game:HttpGet("https://rawscripts.net/raw/Build-A-Boat-For-Treasure-Ultimte-B3BFT-Script-28601"))() end)
 
 -- ================= LOGIC HỆ THỐNG =================
 local function GetClosestToMouse()
