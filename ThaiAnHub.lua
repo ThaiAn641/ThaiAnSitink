@@ -811,6 +811,16 @@ AddScript(tsbTab, "Tthanh Hub", "Không key", function() loadstring(game:HttpGet
 local baTab = Window:CreateTab("Build A Boat For Treasure", 4483362458)
 AddScript(baTab, "Asu Hub", "Không key", function() loadstring(game:HttpGet("https://rawscripts.net/raw/Build-A-Boat-For-Treasure-Ultimte-B3BFT-Script-28601"))() end)
 
+-- ================= TAB 16: BEDWAR =================
+local bwTab = Window:CreateTab("Bed War", 4483362458)
+AddScript(bwTab, "Cat Vape", "Không key", function() loadstring(game:HttpGet('https://raw.githubusercontent.com/new-qwertyui/CatV5/refs/heads/main/init.lua'), 'init.lua')() end)
+AddScript(bwTab, "Voidware", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VWRewrite/master/NewMainScript.lua", true))() end)
+
+-- ================= TAB 17: ETFB =================
+local eaTab = Window:CreateTab("Escape Tsunami", 4483362458)
+AddScript(eaTab, "Escape Tsunam", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/etfbscript-server/EscapeTsunamiForBrainrots/refs/heads/main/Loader.lua"))() end)
+AddScript(eaTab, "Vinz Hub", "Không key", function() loadstring(game:HttpGet("https://script.vinzhub.com/loader"))() end)
+
 -- ================= LOGIC HỆ THỐNG =================
 local function GetClosestToMouse()
     local target, closestDist = nil, getgenv().FOVSize
