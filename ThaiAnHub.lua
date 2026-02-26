@@ -728,6 +728,7 @@ Farm = "Darkbeard" -- "Dough King", "Darkbeard", "Tyrant of the Skies"
 }
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaAnarchist/3TOC-HUB/refs/heads/main/KaitunBoss.luau"))() end)
+AddScript(BF_Tab, "Longhihi Hub", "Không key", function() loadstring(game:Httpget("https://raw.githubusercontent.com/longhihilonghihi-hub/Devs-LongHiHiV3/refs/heads/main/MainV3.txt"))() end)
 
 -- ================= TAB 7: 99 nights in the forest =================
 local Night99Tab = Window:CreateTab("99 nights in the forest", 4483362458)
@@ -836,6 +837,41 @@ AddScript(flTab, "Ftap Hub", "Không key và script này tổng hợp nhiều sc
 -- ================= TAB 20: LB2 =================
 local lbTab = Window:CreateTab("Lumber Tycoon 2", 4483362458)
 AddScript(lbTab, "Kron Hub", "Không key", function() loadstring(game:HttpGet('https://raw.githubusercontent.com/DevKron/Kron_Hub/refs/heads/main/version_1.0'))("") end)
+
+-- ================= TAB 21: GAG =================
+local gagTab = Window:CreateTab("Grow A Garden", 4483362458)
+AddScript(gagTab, "Speed Hub", "Có key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))() end)
+AddScript(gagTab, "Nat Hub", "Có key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/XNatHub/NatHub/refs/heads/main/NatHubLuarmor.lua"))() end)
+AddScript(gagTab, "Enchanted Hub", "Có key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/iblameaabis/Enchanted/refs/heads/main/Enchanted%20Hub%20On%20Top"))() end)
+
+-- ================= TAB 22: DR =================
+local drTab = Window:CreateTab("Dead Rails", 4483362458)
+AddScript(drTab, "Ringta Hub", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/erewe23/deadrailsring.github.io/refs/heads/main/ringta.lua"))() end)
+AddScript(drTab, "Safety Glass", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/catwljz/skibidid/refs/heads/main/SafetyGlasses.txt"))() end)
+AddScript(drTab, "Moondiety", "Có key", function() loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Moondiety-Scripts-Hub-45712"))() end)
+
+-- ================= TAB 23: BAP =================
+local bTab = Window:CreateTab("Build A Plane", 4483362458)
+AddScript(bTab, "Infinity Money", "Không key", function() loadstring(game:HttpGet("https://rawscripts.net/raw/Build-A-Plane-give-money-73246"))() end)
+
+-- ================= TAB 24: NL =================
+local nTab = Window:CreateTab("Ninja Legends", 4483362458)
+AddScript(nTab, "Proxima Hub", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))() end)
+AddScript(nTab, "Titan Hub", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Elison999/Ninja-legends/refs/heads/main/Ninja%20legends.lua"))() end)
+
+-- ================= TAB 25: ML =================
+local mlTab = Window:CreateTab("Muscle Legends", 4483362458)
+AddScript(mlTab, "Enchanted Hub", "Có key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/iblameaabis/Enchanted/refs/heads/main/Enchanted%20Hub%20On%20Top"))() end)
+
+-- ================= TAB 26: LOS =================
+local lsTab = Window:CreateTab("Legends Of Speed", 4483362458)
+AddScript(lsTab, "Enchanted Hub", "Có key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/iblameaabis/Enchanted/refs/heads/main/Enchanted%20Hub%20On%20Top"))() end)
+
+-- ================= TAB 27: FI =================
+local fTab = Window:CreateTab("Fish It", 4483362458)
+AddScript(fTab, "Chloe X", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/MajestySkie/Chloe-X/main/Main/ChloeX"))() end)
+AddScript(fTab, "Lynx Hub", "Không key và dễ bị kick", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/4LynxX/Lynx/refs/heads/main/LynxxMain.lua"))() end)
+AddScript(fTab, "Blessed X", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/mynamewendel-ctrl/Blessed-Hub-X-/refs/heads/main/Fish%20it"))() end)
 
 -- ================= LOGIC HỆ THỐNG =================
 local function GetClosestToMouse()
