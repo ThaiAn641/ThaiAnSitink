@@ -873,6 +873,20 @@ AddScript(fTab, "Chloe X", "Không key", function() loadstring(game:HttpGet("htt
 AddScript(fTab, "Lynx Hub", "Không key và dễ bị kick", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/4LynxX/Lynx/refs/heads/main/LynxxMain.lua"))() end)
 AddScript(fTab, "Blessed X", "Không key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/mynamewendel-ctrl/Blessed-Hub-X-/refs/heads/main/Fish%20it"))() end)
 
+-- ================= TAB 28: KL =================
+local klTab = Window:CreateTab("King Legacy", 4483362458)
+AddScript(klTab, "X7 Software", "Có key", function() local request = (syn and syn.request) or (http and http.request) or http_request; loadstring(request({['Url']='https://x7.software',['Method']='GET'}).Body)("X7-a5KsoQGw") end)
+AddScript(klTab, "Adel Hub", "Có key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/AdelOnTheTop/Adel-Hub/main/Main.lua"))() end)
+AddScript(klTab, "BT Team", "Có key", function() loadstring(game:HttpGetAsync("https://lua-library.btteam.net/script-auth.txt"))() end)
+AddScript(klTab, "Lh Hub", "Có key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Upd6/main/King"))() end)
+AddScript(klTab, "HULK Hub", "Có key", function() loadstring(game:HttpGet"https://raw.githubusercontent.com/HULKUexe/mobileX/main/FreeScript.lua")() end)
+AddScript(klTab, "Winnable Hub", "Có key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Winnablez/Winnable/main/Loader"))() end)
+AddScript(klTab, "Hyper Hub", "Có key", function() repeat wait() until game:IsLoaded() loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/Hyper/main/script.lua"))() end)
+AddScript(klTab, "Mukuro Hub", "Có key", function() loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")() end)
+AddScript(klTab, "Arc Hub", "Có key", function() getgenv().CustomDistance = 10; loadstring(game:HttpGet("https://raw.githubusercontent.com/ChopLoris/ArcHub/main/main.lua"))() end)
+AddScript(klTab, "Speed Hub", "Có key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))() end)
+AddScript(klTab, "Omg Hub", "Có key", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))() end)
+
 -- ================= LOGIC HỆ THỐNG =================
 local function GetClosestToMouse()
     local target, closestDist = nil, getgenv().FOVSize
